@@ -16,6 +16,9 @@ h2 {
   font-size:48px;
   line-height: 1px;
 }
+.textLeft {
+  text-align: left;
+}
 
 p {
   font-family: 'Nunito Sans', sans-serif;
@@ -30,6 +33,15 @@ p {
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
+
+.header2 {
+  height:15vh;
+  position:relative;
+  text-align:left;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:white;
+}
+
 .logo {
   width:200px;
   fill:white;
@@ -46,6 +58,14 @@ p {
   width:100%;
   margin: 10;
   padding-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inner-header2 {
+  width:100%;
+  padding-top: 3vh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -74,6 +94,14 @@ p {
   background-color: white;
 }
 
+.contentContainer {
+  position:relative;
+  text-align:left;
+  background-color: white;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -84,6 +112,12 @@ a {
   color: white;
   text-decoration: none;
   font-size: 25px;
+}
+
+.bigLink {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
 }
 
 a:hover {
@@ -98,6 +132,16 @@ a:hover {
   position: relative;
   text-align:left;
   margin: 20px;
+}
+
+.right{
+  float:right;
+  padding-right: 5vh;
+}
+
+.left{
+  float:left;
+  padding-left: 5vh;
 }
 
 /* Animation */
